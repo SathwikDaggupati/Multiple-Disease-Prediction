@@ -2,7 +2,7 @@ import pickle
 import streamlit as st
 
 # Load the saved model
-diabetes_model = pickle.load(open('diabete_model.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes_model/diabetes_model.sav', 'rb'))
 
 # Background styling
 page_bg_img = '''
